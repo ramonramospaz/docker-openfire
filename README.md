@@ -101,7 +101,7 @@ You may append options to the startup command to configure the JVM:
 ```bash
 docker run -name openfire -d \
   [DOCKER_OPTIONS] \
-  gizmotronic/openfire:4.4.4 \
+  gizmotronic/openfire:4.1.6 \
   -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode
 ```
 
@@ -142,7 +142,7 @@ To upgrade to newer releases:
   ```bash
   docker run -name openfire -d \
     [OPTIONS] \
-    gizmotronic/openfire:4.4.4
+    gizmotronic/openfire:4.1.6
   ```
 
 ## Shell Access
